@@ -21,21 +21,19 @@ One-click **Unity Editor** window for automated builds, zipping & build history
 ---
 
 ## 🛠️ Installation
-1. Copy **`Assets/SimpleBuildHelper`** into your project.  
-   No external packages required.
-2. Unity compiles it into `SimpleBuildHelper.dll` (**Editor-only**).
-
----
-## Quick Start
 1. **Install Simple Build Helper**  
    Window → Package Manager → **Add package from Git URL…**
   ```jsonc
   https://github.com/Je1rei/SimpleBuilderHelper.git
   ```
-2. Open the window:  
+
+---
+## Quick Start
+
+1. Open the window:  
    **`Tools → Build → Simple Helper`**
-3. (Optional) open **Advanced Options** to tweak output folder, ZIP, logs, etc.
-4. Press **Build Now**.  
+2. (Optional) open **Advanced Options** to tweak output folder, ZIP, logs, etc.
+3. Press **Build Now**.  
    When finished the resulting folder (and ZIP) will open in the OS file explorer.
 ---
 
