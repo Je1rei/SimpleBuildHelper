@@ -26,7 +26,7 @@ namespace SimpleBuildHelper.Editor
         private bool _useCustomFolder;
         private string _customFolderPath;
         private bool _createZip;
-        private bool _generateLogs;
+        private bool _generateLogs = false;
         private bool _generateHeavy;
         private bool _generateUnityLog;
         private bool _generateBuildLog;
@@ -213,6 +213,7 @@ namespace SimpleBuildHelper.Editor
                     new GUIContent(Constants.LabelGenerateHeavy, "In Next Update"),
                     _generateHeavy
                 );
+                _generateHeavy = false;
                 EditorGUI.EndDisabledGroup();
 
                 _generateUnityLog = EditorGUILayout.ToggleLeft(
